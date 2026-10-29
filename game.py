@@ -62,7 +62,7 @@ def is_point_in_circle(x1, y1, radius, x, y):
 class Obstacle:
     def __init__(self, x):
         self.x = x
-        self.y = random.randint(0, 1) * 230 + 50
+        self.y = random.randint(50, 280)
 
         self.height = 150
         self.width = 100
